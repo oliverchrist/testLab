@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+.wrapper {
+	width:990px;
+		 }
+.header {
+	border: 5px solid red; 
+	width: auto;
+	height: 130px;
+		}
+.navigation {
+	border: 5px solid green; 
+	width: 200px;
+	min-height:600px;
+	float: left;
+			}
+.content  {
+	border: 5px solid blue; 
+	width: 770px; 
+	min-height:600px;
+	float: left;			
+		  }
+.content h1  {
+	font-style: italic;
+	font-family: Verdana, Geneva, sans-serif;
+			 }
+.footer {
+	border: 5px solid yellow;
+	width: auto;
+	height: 30px;
+	clear: both;
+		 }				
