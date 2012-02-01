@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/* website */
+
+#website {
+	position: relative;
+	width: 990px;
+	margin: 0 auto;	
+			 }	
+
+/* body */
+
+body {
+	font-size: 12px;
+	font-family: Arial;
+     }
+
+/* header */ 			 
+			 
+#header {
+	display: block;
+	border: 5px solid red; 
+	height: 130px;
+	background: transparent;
+		}
+		
+#logo {	    
+    float: left;
+	margin-top: 0;
+	margin-left: 10px;
+	border: none;	
+	       }
+#logo a img { border:none; }	       
+	   
+#title  {	
+	float: right;
+	display: inline;
+	margin: 20px 20px 0 0;
+	font-size: 30px;
+	font-style: italic;	
+		        }
+
+#header nav {
+	position: absolute;
+	display: inline;
+	margin-left: 120px; 
+	margin-top: 85px;
+		         }	
+
+#header nav ul {
+	list-style: none;
+	font-weight: bold;
+	margin: 0;
+	font-size: 16px;	
+	            }
+
+#header nav ul li {
+	margin: 0;
+	padding: 0;	
+	float: left;
+		}
+	
+#header nav ul li a{
+	display: inline-block;
+	text-decoration: none;	
+	padding: 2px;
+	border: 1px solid green;
+				}
+
+
+
+/* navigation */
+
+#navigation {
+	border: 5px solid green; 
+	width: 200px;
+	min-height:600px;	
+	float: left;
+			}			
+			
+			
+/* content */				
+			
+#content  {
+	border: 5px solid blue; 
+	width: 750px; 
+	min-height:590px;
+	float: right;
+	padding: 0 10px 10px 10px;
+		  }
+		  
+		  
+#content h1  {
+	font-style: italic;	
+	font-size: 20px;
+			 }			 
+			 
+			 
+/* footer */			 
+			 
+footer {
+	display: block;
+	border: 5px solid yellow;
+	width: auto;
+	height: 30px;
+	clear: both;
+		 }				
